@@ -1,0 +1,47 @@
+name: health_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.4.0
+  decimal: ^0.3.3
+  pedometer: ^1.0.0
+  percent_indicator: ^1.0.14
+  flutter_launcher_icons: ^0.7.0
+  flutter_staggered_animations: ^0.1.2
+  google_nav_bar: ^2.0.1
+  line_icons: ^0.2.0
+  google_fonts: ^0.5.0+1
+  introduction_screen: ^1.0.8
+  provider: ^4.0.5
+  fluttertoast: ^4.0.1
+  hive: ^1.4.1+1
+  path_provider: ^1.6.7
+  image_picker: ^0.6.6+1
+  enhanced_future_builder: ^1.0.2
+  sensors: ^0.4.2
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/step.png"
+
+flutter:
+
+  uses-material-design: true
+  assets:
+        - assets/images/
+
